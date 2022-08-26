@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,900;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.container {
+    width: 100vw;
+    height: 550px;
+    background-color: #503CEB;
+}
+
+.navigation {
+    width: 80vw;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.button button {
+    color: #fff;
+    background-color: transparent;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.button button:hover {
+    border: 2px solid black;
+    transition: 0.9ms;
+    cursor: pointer;
+}
+
+.herosection {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.left iframe {
+    border: 2px solid #D6EB3D;
+    border-radius: 10px;
+}
+
+.right {
+    margin-left: 100px;
+}
+
+.right h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+#heading-txt {
+    color: black;
+    background-color: #D6EB3D;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+#list-items {
+    font-size: 18px;
+    line-height: 35px;
+    margin: 20px 0px;
+    color: #fff;
+    list-style-type: square;
+}
+
+.download-cta {
+    display: flex;
+}
+
+.download-cta img {
+    width: 150px;
+}
+
+.download-cta img:nth-child(1) {
+    margin-right: 10px;
+}
+
+.wrapper {
+    background-color: #D6EB3D;
+    width: 100vw;
+    height: 650px;
+}
+
+.featured-images {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item {
+    width: 20%;
+    margin: 30px 18px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.item h1 {
+    font-size: 20px;
+    color: #503CEB;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.download-button {
+    text-align: center;
+}
+
+.download-button button {
+    color: black;
+    background-color: transparent;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.download-button button:hover {
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.9s;
+    background-color: #503CEB;
+    color: #fff;
+    border: none;
+}
+
+.wrapper-2 {
+    width: 100vw;
+    background-color: #503CEB;
+    width: 100vw;
+    height: 500px;
+}
+
+.container-2 {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-2 h1 {
+    font-size: 50px;
+    color: #fff;
+    padding: 30px 0px;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.footer {
+    width: 100vw;
+    height: 500px;
+}
+
+.container-3 {
+    width: 80vw;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.left-content {
+    width: 50vw;
+}
+
+.left-content p {
+    line-height: 28px;
+    color: #fff;
+    margin: 10px 0px;
+    background-color: #503CEB;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.left-content h1 {
+    margin: 50px 0px;
+    color: #fff;
+    font-size: 40px;
+    background-color: #503CEB;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.right-content img {
+    position: absolute;
+    width: 20%;
+    right: 60px;
+}
+
+.download-cta-2 {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.download-cta-2 img {
+    width: 150px;
+}
+
+.download-cta-2 img:nth-child(1) {
+    margin-right: 10px;
+}
